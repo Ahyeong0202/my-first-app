@@ -11,3 +11,8 @@
  
 1. Numbered item
 2. Another item
+
+```python
+def hello():
+    print("Hello, World!")
+```
