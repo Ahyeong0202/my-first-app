@@ -1,23 +1,66 @@
-# my-first-app
-## Description
-~~This is my **first** app on streamlit.~~
+# Hello SKKU 🎓
 
+A simple web app built with **Streamlit** as a first step into web development.
 
-'print("This is my **first** app on streamlit.")'
+## 🚀 Demo
 
-- Bullet Item
-- Another Item
-  - Nested Item
- 
-1. Numbered item
-2. Another item
+> *"My first web app is working!"* — with balloons! 🎈
+
+## ✨ Features
+
+- Displays a welcome title for SKKU
+- Shows a greeting message
+- Celebrates with a balloon animation on load
+
+## 🛠️ Tech Stack
+
+- [Python](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- pip
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install streamlit
+   ```
+
+3. Run the app:
+   ```bash
+   streamlit run app.py
+   ```
+
+4. Open your browser and go to `http://localhost:8501`
+
+## 📄 Code
 
 ```python
-def hello():
-    print("Hello, World!")
+import streamlit as st
+
+st.title("Hello, SKKU! 🎓")
+st.write("My first web app is working!")
+st.balloons()
 ```
 
-| Name  | Age | Role  |
-|------|------|------|
-| A | 25   | Developer |
-| B | 30   | Designer |
+## 📁 Project Structure
+
+```
+your-repo-name/
+└── app.py        # Main Streamlit application
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
