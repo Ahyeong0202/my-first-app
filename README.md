@@ -17,7 +17,7 @@ def hello():
     print("Hello, World!")
 ```
 
-| 이름  | 나이 | 직업  |
+| Name  | Age | Role  |
 |------|------|------|
-| 철수 | 25   | 개발자 |
-| 영희 | 30   | 디자이너 |
+| A | 25   | Developer |
+| B | 30   | Designer |
